@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Cats</title>
+</head>
+<body>
+    <main>
+        <h1>Basic site made by HTML only</h1>
+        <hr>
+        <h1>CUTE CAT PHOTOS</h1>
+        <div class="info">
+          <h2>information about cats</h2>
+          <p>Check out <a target="_blank" href="https://en.wikipedia.org/wiki/Cat">wikipedia page</a> for more information about cats.</p>
+          <a href="https://nl.pinterest.com/pin/65372632067628827/"><img src="https://i.pinimg.com/474x/e0/81/6b/e0816b09a99f6ce0ee708343cfc5469d--cat-daycare-pet-services.jpg" alt="A cute cat looking at you"></a>
+          <figcaption>picture is taken from the pinterest (clicking it will take you to the site)</figcaption>
+        </div>
+        <hr>
+        <div class="facts">
+          <h2>Facts about cats</h2>
+          <h3>Things cats love:</h3>
+          <ul>
+            <li>Sleep</li>
+            <img src="https://i.pinimg.com/236x/4b/fa/1f/4bfa1fb245311ba2df32a8a4afd6de47.jpg" alt="cute cat sleeping">
+            <li>laser pointers</li>
+            <img src="https://www.hillspet.com/content/dam/cp-sites/hills/hills-pet/en_us/img/article/white-calico-cat-staring-at-red-laser-pointer-dot-sw-771053.jpeg" alt="cat looking at laser pointer">
+            <li>lasagna</li>
+          </ul>
+          <figure>
+            <img src="https://m.media-amazon.com/images/I/81MHgoUMeTL._CR0,204,1224,1224_UX256.jpg" alt="A slice of lasagna on a plate.">
+            <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+          </figure>
+          <h3>Top 3 most popular cat breeds</h3>
+          <ol>
+            <li>Exotic Shorthair Cats</li>
+            <img src="https://d1fdloi71mui9q.cloudfront.net/Jw0ld7RtSMu4HominMFk_QU7X8a7h09ZgE42n" alt="Exotic Shorthair Cat">
+            <li>Ragdoll Cats</li>
+            <img src="https://m.media-amazon.com/images/I/41nK7M5IHhL._CR0,80,480,480_UX256.jpg" alt="Ragdoll Cat">
+            <li>Persian Cats</li>
+            <img src="https://img.cutenesscdn.com/375/clsd/getty/9d63ea7f7bd0464b8ebcf42a5d6b8a45" alt="Persian Cat">
+          </ol>
+        </div>
+        <div class="form">
+          <h2>Cat Form</h2>
+          <h3>send us a piece of information and a picture of your cat</h3>
+          <form action="/html restart/thx.html">
+            <fieldset>
+              <legend>Is your cat an indoor or outdoor cat?</legend>
+              <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+            </fieldset>
+            <br>
+            <fieldset>
+              <legend>What's your cat's personality?</legend>
+              <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+              <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+              <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            </fieldset>
+            <br>
+            <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </main>
+      <br>
+      <footer>
+        <p>
+          Idea is taken from the - <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/">freeCodeCamp.org HTML course</a>
+        </p>
+      </footer>
+</body>
+</html>
